@@ -26,21 +26,34 @@ const questions = [
     {
         type: "input",
         massage: "Please provide contribution guidelines",
-        name: "License"
+        name: "Contribution"
     },
+    {
+        type: "list",
+        message: "Choose a license?",
+        name: "License",
+        choices: ["None", "MIT License", "Apache License 2.0", "GNU General Public License v3.0" ],
+      },
     {
         type: "input",
         massage: "Please provide test instructions",
         name: "Test"
     },
-
+    
 ];
+
+
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then(function(response) {
+        console.log(response)
+    })
+}
 
 // Function call to initialize app
 init();
