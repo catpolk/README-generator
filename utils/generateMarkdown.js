@@ -1,10 +1,9 @@
-const index = require('../index.js');
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let badge = '';
-    if (badge === 'MIT License')
+    if (badge === 'MIT License') {
       badge = '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)'
     } else if (license === 'Apache 2.0') {
       badge = '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
@@ -14,7 +13,7 @@ function renderLicenseBadge(license) {
     badge = ""
   }
   return badge;
-
+}
 
 
 // TODO: Create a function that returns the license link
@@ -48,10 +47,11 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  console.log(data);
   return `# ${data.title}
 
-  ## ${renderLicenseSection(responce.license)} ${renderLicenseBadge(responce.license)}
-  ### ${renderLicenseLink(responce.license)}
+  ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
+  ### ${renderLicenseLink(data.license)}
 
   ## Table of Contents:
   ###  * [Discription](#discription)
@@ -63,25 +63,25 @@ function generateMarkdown(data) {
 
   ##Discription:
   ### Provide a discription:
-  ### ${responce.discription}
+  ### ${data.discription}
   
   ## Installation:
   ### You must install the following for this app to function:
-  ### ${responce.installation}
+  ### ${data.installation}
   
   ## Usage:
-  ### ${responce.usage}
+  ### ${data.usage}
   
   ## Contributors:
-  ### ${responce.contributions}
+  ### ${data.contributions}
   
   ## Tests:
   ### Run the following commands in your terminal to test this app:
-  ### ${responce.tests}
+  ### ${data.tests}
   
-  ### Github: https://github.com/${responce.askMe}
+  ### Github: https://github.com/${data.askMe}
   ### or
-  ### Email: ${responce.email}
+  ### Email: ${data.email}
 
 `;
 }
