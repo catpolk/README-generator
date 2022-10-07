@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+//packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs')
 
@@ -9,8 +9,8 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is your name?',
-      },
+        message: 'What is the title of your project?',
+    },
     {
         type: "input",
         message: "Enter a disription of your project",
@@ -18,17 +18,17 @@ const questions = [
     },
     {
         type: "input",
-        massage: "Provide installation instructuins",
+        message: "Provide installation instructuins",
         name: "installation"
     },
     {
         type: "input",
-        massage: "Provide usage information for your project",
+        message: "Provide usage information for your project",
         name: "usage"
     },
     {
         type: "input",
-        massage: "Provide contribution guidelines",
+        message: "Provide contribution guidelines",
         name: "contribution"
     },
     {
@@ -36,30 +36,34 @@ const questions = [
         message: "Choose a license for your project?",
         name: "license",
         choices: ["None", "MIT License", "Apache License 2.0", "GNU General Public License v3.0" ],
-      },
+    },
     {
         type: "input",
-        massage: "Please provide test instructions",
+        message: "Please provide test instructions",
         name: "test"
     },
     {
         type: "input",
-        massage: "What is your Github username: ",
+        message: "What is your Github username: ",
         name: "github"
     },
     {
         type: "input",
-        massage: "What is your email: ",
+        message: "What is your email: ",
         name: "email"
+    },
+    {
+        type: "input",
+        message: "Questions: ",
+        name: "questions"
     },
     
 ];
 
 
-// TODO: Create a function to write README file
+//function writes README file
 function writeToFile(fileName, data) {
-   // fs.writeFile(`${data.name.toLowerCase().split(' ').join('')}.json`)
-    
+
     fs.writeFile(fileName, data, (err) =>
       err ? console.log(err) : console.log('Success!')
     );
@@ -67,10 +71,9 @@ function writeToFile(fileName, data) {
 
 
 
-// TODO: Create a function to initialize app
+//function that initializes the app
 function init() {
     inquirer.prompt(questions).then(function(response) {
-        console.log(response)
         var fileContent = generateMarkdown(response);
         writeToFile('README.md', fileContent)
     });

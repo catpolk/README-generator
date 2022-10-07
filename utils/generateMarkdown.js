@@ -1,6 +1,5 @@
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
   let badge = '';
     if (badge === 'MIT License') {
@@ -16,8 +15,7 @@ function renderLicenseBadge(license) {
 }
 
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+//a function that returns the license link
 function renderLicenseLink(license) {
   let licenseLink = '';
     if(license === 'MIT') {
@@ -32,20 +30,19 @@ function renderLicenseLink(license) {
     return licenseLink;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+//a function that returns the license section of README
 function renderLicenseSection(license) {
   let licenseSection = ''
   if(license === 'None') {
     licenseSection = ''
   } else {
     licenseSection =
-    `License: ${license} `
+    `License: ${license}`
   }
   return licenseSection;
 }
 
-// TODO: Create a function to generate markdown for README
+//a function generates markdown for README
 function generateMarkdown(data) {
   console.log(data);
   return `# ${data.title}
@@ -61,12 +58,11 @@ function generateMarkdown(data) {
   ###  * [License](#license)
   ###  * [Tests](#tests)
 
-  ##Discription:
+  ##Discription:    
   ### Provide a discription:
   ### ${data.discription}
   
   ## Installation:
-  ### You must install the following for this app to function:
   ### ${data.installation}
   
   ## Usage:
@@ -76,11 +72,14 @@ function generateMarkdown(data) {
   ### ${data.contributions}
   
   ## Tests:
-  ### Run the following commands in your terminal to test this app:
   ### ${data.test}
   
-  ### Github: https://github.com/${data.github}
-  ### Email: ${data.email}
+  ##  Qestions: 
+  ### ${data.questions}
+
+  ### How to reach me: 
+  ### My Github username: https://github.com/${data.github}
+  ### My email: ${data.email}
 
 `;
 }
