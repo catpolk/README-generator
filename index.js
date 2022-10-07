@@ -42,6 +42,16 @@ const questions = [
         massage: "Please provide test instructions",
         name: "test"
     },
+    {
+        type: "input",
+        massage: "What is your Github username: ",
+        name: "github"
+    },
+    {
+        type: "input",
+        massage: "What is your email: ",
+        name: "email"
+    },
     
 ];
 

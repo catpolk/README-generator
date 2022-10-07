@@ -77,10 +77,9 @@ function generateMarkdown(data) {
   
   ## Tests:
   ### Run the following commands in your terminal to test this app:
-  ### ${data.tests}
+  ### ${data.test}
   
-  ### Github: https://github.com/${data.askMe}
-  ### or
+  ### Github: https://github.com/${data.github}
   ### Email: ${data.email}
 
 `;
