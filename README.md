@@ -1,36 +1,36 @@
-# dsfdsf
+# Professional README 
 
-  ## License: Apache License 2.0 
+  ## License: MIT License 
   ### 
 
   ## Table of Contents:
-  ###  * [Discription](#discription)
+  ###  * [Description](#description)
   ###  * [Installation](#installation)
   ###  * [Usage](#usage)
   ###  * [Contributors](#contributors)
   ###  * [License](#license)
   ###  * [Tests](#tests)
 
-  ##Discription:    
-  ### Provide a discription:
-  ### sdFAsdf
+  ##Description:    
+  ### Provide a description:
+  ### Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
   
   ## Installation:
-  ### DSFAds
+  ### What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
   
   ## Usage:
-  ### fdFdsf
+  ### Provide instructions and examples for use. Include screenshots as needed.
   
   ## Contributors:
   ### undefined
   
   ## Tests:
-  ### DFGDSFGSDFG
+  ### Go the extra mile and write tests for your application. Then provide examples on how to run them here.
   
   ##  Qestions: 
-  ### dfsgsdfg
+  ### no questions
 
   ### How to reach me: 
-  ### My Github username: https://github.com/GGDSFGSDFG
-  ### My email: adsfgasdfgadfsg
+  ### My Github username: https://github.com/catpolk
+  ### My email: cpolknytx@gmail.com
 

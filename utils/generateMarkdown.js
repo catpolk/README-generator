@@ -51,16 +51,16 @@ function generateMarkdown(data) {
   ### ${renderLicenseLink(data.license)}
 
   ## Table of Contents:
-  ###  * [Discription](#discription)
+  ###  * [Description](#description)
   ###  * [Installation](#installation)
   ###  * [Usage](#usage)
   ###  * [Contributors](#contributors)
   ###  * [License](#license)
   ###  * [Tests](#tests)
 
-  ##Discription:    
-  ### Provide a discription:
-  ### ${data.discription}
+  ##Description:    
+  ### Provide a description:
+  ### ${data.description}
   
   ## Installation:
   ### ${data.installation}
