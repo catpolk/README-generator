@@ -1,6 +1,6 @@
-# Professional README file generator 
+# Professional README file generator
 
-  ##Description:    
+  ## Description:    
   ### README file contains essential information about the repo's project. It contains sections such as description, installation, usage, license,  tests, and  the contact information of the developer. 
 
   ## Table of Contents:
@@ -18,7 +18,7 @@
   ### This program is useful for developers when they need to create a professional README file. Each program should have a README file, so this program that generates a README file is high usability potential.
 
   ## License
-  ## Apache License 2.0  
+  ## GNU General Public License v3.0  
   ### 
   
   ## Contributing:
@@ -32,5 +32,5 @@
 
   ### Contact me: 
   ### My Github username: https://github.com/catpolk
-  ### My email: cp
+  ### My email: cpolknytx@gmail.co 
 
