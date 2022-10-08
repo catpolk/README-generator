@@ -18,7 +18,7 @@
   ### This program is useful for developers when they need to create a professional README file. Each program should have a README file, so this program that generates a README file is high usability potential.
 
   ## License
-  ## License: MIT License  
+  ## Apache License 2.0  
   ### 
   
   ## Contributing:
@@ -30,7 +30,7 @@
   ##  Qestions: 
   ### no
 
-  ### How to reach me: 
-  ### My Github username: https://github.com/cpolk
-  ### My email: cpolk
+  ### Contact me: 
+  ### My Github username: https://github.com/catpolk
+  ### My email: cp
 
