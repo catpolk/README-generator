@@ -48,7 +48,7 @@ function generateMarkdown(data) {
   console.log(data);
   return `# ${data.title}
 
-  ##Description:    
+  ## Description:    
   ### ${data.description}
 
   ## Table of Contents:
