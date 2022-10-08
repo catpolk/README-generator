@@ -1,16 +1,17 @@
 
 //function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
-  let badge = '';
+  let badge = ' ';
     if (badge === 'MIT License') {
-      badge = '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)'
-    } else if (license === 'Apache 2.0') {
-      badge = '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
-  } else if (license === 'GNU v3.0') {
-      badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
-  } else {
-    badge = ""
-  }
+      badge = '![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)'
+    } else if (badge === 'Apache 2.0') {
+      badge = '![Apache License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
+    } else if (badge === 'GNU v3.0') {
+      badge = '[![GPL License](https://www.gnu.org/licenses/gpl-3.0)]'
+    } else {
+    badge = ' '
+    }
+    
   return badge;
 }
 
@@ -25,7 +26,7 @@ function renderLicenseLink(license) {
     } else if (license === 'GPL v3.0') {
       licenseLink = 'https://www.gnu.org/licenses'
     } else {
-      licenseLink = ""
+      licenseLink = ''
     }
     return licenseLink;
 }
@@ -47,8 +48,9 @@ function generateMarkdown(data) {
   console.log(data);
   return `# ${data.title}
 
-  ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
-  ### ${renderLicenseLink(data.license)}
+  ##Description:    
+  ### Provide a description:
+  ### ${data.description}
 
   ## Table of Contents:
   ###  * [Description](#description)
@@ -57,18 +59,18 @@ function generateMarkdown(data) {
   ###  * [Contributors](#contributors)
   ###  * [License](#license)
   ###  * [Tests](#tests)
-
-  ##Description:    
-  ### Provide a description:
-  ### ${data.description}
   
   ## Installation:
   ### ${data.installation}
   
   ## Usage:
   ### ${data.usage}
+
+  ## License
+  ## ${renderLicenseSection(data.license)} ${renderLicenseBadge(data.license)}
+  ### ${renderLicenseLink(data.license)}
   
-  ## Contributors:
+  ## Contributing:
   ### ${data.contribution}
   
   ## Tests:
