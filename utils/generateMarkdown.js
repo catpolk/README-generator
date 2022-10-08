@@ -38,7 +38,7 @@ function renderLicenseSection(license) {
     licenseSection = ''
   } else {
     licenseSection =
-    `License: ${license}`
+    `${license}`
   }
   return licenseSection;
 }
@@ -78,7 +78,7 @@ function generateMarkdown(data) {
   ##  Qestions: 
   ### ${data.questions}
 
-  ### How to reach me: 
+  ### Contact me: 
   ### My Github username: https://github.com/${data.github}
   ### My email: ${data.email}
 
