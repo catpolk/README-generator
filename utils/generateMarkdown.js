@@ -37,8 +37,7 @@ function renderLicenseSection(license) {
   if(license === 'None') {
     licenseSection = ''
   } else {
-    licenseSection =
-    `${license}`
+    licenseSection =`${license}`
   }
   return licenseSection;
 }
@@ -81,9 +80,7 @@ function generateMarkdown(data) {
 
   ### Contact me: 
   ### My Github username: https://github.com/${data.github}
-  ### My email: ${data.email}
-
-`;
+  ### My email: ${data.email}`;
 }
 
 module.exports = generateMarkdown;

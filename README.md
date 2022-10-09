@@ -12,10 +12,10 @@
   ###  * [Tests](#tests)
   
   ## Installation:
-  ### After cloning a repository one needs to  run a command nom install, then in the command line enter node index.js. A user will be presented with a set of question, after providing answers to these questions, the program will generate a professional README file about the project.  This program is useful for developers when they need to create a professional README file. Each program should have a README file, so this program that generates a README file is high usability potential.
+  ### After cloning a repository one needs to  run a command nom install, then in the command line enter node index.js. A user will be presented with a set of question, after providing answers to these questions, the program will generate a professional README file about the project.  
   
   ## Usage:
-  ### If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.
+  ### This program is useful for developers when they need to create a professional README file. Each program should have a README file, so this program that generates a README file is high usability potential.
 
   ## License
   ## [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
@@ -23,15 +23,15 @@
   ### http://www.apache.org/licenses/LICENSE-2.0
   
   ## Contributing:
-  ### Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+  ### If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.
   
   ## Tests:
-  ### jydfhgva
+  ### Go the extra mile and write tests for your application. Then provide examples on how to run them here.
   
   ##  Qestions: 
-  ### zkdjfhg
+  ### n/a
 
   ### Contact me: 
-  ### My Github username: https://github.com/dfkvuha
-  ### My email: akhjrgf
+  ### My Github username: https://github.com/catpolk
+  ### My email: cpolknytx@gmail.com
 
