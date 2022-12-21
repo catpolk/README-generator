@@ -18,9 +18,9 @@
   ### This program is useful for developers when they need to create a professional README file. Each program should have a README file, so this program that generates a README file is high usability potential.
 
   ## License
-  ## [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
-  ## Apache 2.0 
-  ### http://www.apache.org/licenses/LICENSE-2.0
+  ## [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses)
+  ## GNU v3.0 
+  ### https://www.gnu.org/licenses
   
   ## Contributing:
   ### If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.
@@ -35,3 +35,6 @@
   ### My Github username: https://github.com/catpolk
   ### My email: cpolknytx@gmail.com
 
+  Github link for the application: https://github.com/catpolk/README-generator/blob/main/README.md
+
+  Video link: https://drive.google.com/file/d/1l7t-vNUWHCf1W0zRWAEy6D67ZvdlNqn3/view?usp=share_link

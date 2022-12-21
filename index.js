@@ -1,7 +1,6 @@
 //packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs')
-
 const generateMarkdown = require('./utils/generateMarkdown');
 
 //an array of questions for user input
@@ -60,7 +59,6 @@ const questions = [
     
 ];
 
-
 //function writes README file
 function writeToFile(fileName, data) {
 
@@ -68,8 +66,6 @@ function writeToFile(fileName, data) {
       err ? console.log(err) : console.log('Thank you!')
     );
 }
-
-
 
 //function that initializes the app
 function init() {
