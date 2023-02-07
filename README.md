@@ -38,3 +38,9 @@
   Github link for the application: https://github.com/catpolk/README-generator/blob/main/README.md
 
   Video link: https://drive.google.com/file/d/1l7t-vNUWHCf1W0zRWAEy6D67ZvdlNqn3/view?usp=share_link
+
+  ![alt screenshot](./public/images/Screen%20Shot%202023-02-07%20at%205.01.15%20PM.png)
+
+  ![alt screenshot](./public/images/Screen%20Shot%202023-02-07%20at%205.01.37%20PM.png)
+
+  ![alt screenshot](./public/images/Screen%20Shot%202023-02-07%20at%205.00.53%20PM.png)
